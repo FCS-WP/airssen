@@ -1,0 +1,57 @@
+.cs_main_header{
+    padding-top: 20px;
+    &.cs_accent_bg{
+        background: #81d8d0;
+    }
+    .cs_main_header_left{
+        .cs_site_branding{
+            margin-top: 15px;
+            width: 150px;
+        }
+    }
+}
+#main_slider{
+    h3{
+        img{
+            display: none;
+        }
+    }
+}
+#about_us{
+    .cs_tab_links{
+        li{
+            &:first-child{
+                order: 1
+            }
+            &:nth-child(2){
+                order: 3
+            }
+            &:nth-child(3){
+                order: 2
+            }
+        }
+    }
+    #tab_1{
+        ul{
+            li{
+                width: 100%;
+            }
+        }
+    }
+    #tab_2{
+        ul{
+            li{
+                &:first-child{
+                    padding-left: 0;
+                    width: 100%;
+                    svg{
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+    .cs_about_btns{
+        display: none;
+    }
+}
