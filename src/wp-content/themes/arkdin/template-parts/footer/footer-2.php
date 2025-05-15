@@ -130,11 +130,11 @@ $footer_menu_repeater = get_theme_mod('footer_menu_repeater' , $footer_menu);
                 print '</div>';
 
                 print '<div class="cs_footer_col">';
-                dynamic_sidebar( 'footer-2-3' );
+                dynamic_sidebar( 'footer-3-1' );
                 print '</div>';
 
                 print '<div class="cs_footer_col">';
-                dynamic_sidebar( 'footer-2-4' );
+                dynamic_sidebar( 'footer-3-2' );
                 print '</div>'; 
 
                 } else {

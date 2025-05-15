@@ -27,7 +27,7 @@
     <?php wp_body_open();?>
 
     <?php
-        $arkdin_preloader_image = get_template_directory_uri() . '/assets/img/preloader_icon.svg';
+        $arkdin_preloader_image = "/wp-content/uploads/2025/05/preloader_icon.webp";
         $arkdin_preloader = get_theme_mod( 'arkdin_preloader', false );
     ?>
 

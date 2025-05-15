@@ -1,0 +1,100 @@
+/* Page */
+
+#experts{
+    .cs_about.cs_style_1{
+        .cs_list_2_wrap{
+            &:before{
+                display: none;
+            }
+        }
+        ul{
+            &.cs_list{
+                display: none;
+            }
+        }
+        .cs_list_experience{
+            transform: none;
+            writing-mode: initial;
+            -webkit-writing-mode: initial;
+            position: static;
+        }
+        .cs_about_avatar{
+            display: none;
+        }
+    }
+}
+
+#our_mission{
+    .cs_faq_thumb{
+        display: none;
+    }
+    .col-xl-6{
+        &:first-of-type{
+            display: none;
+        }
+    }
+}
+
+
+#contact_information{
+    .cs_iconbox.cs_style_3{
+        height: 100%;
+    }
+}
+
+/* Checkout */
+
+.elementor-widget-shortcode{
+    form.woocommerce-checkout{
+        overflow: auto;
+        .col2-set{
+            width: 60%;
+            float: left;
+            padding: 0 10px 0 0;
+            .col-1, .col-2{
+                width: 100%;
+                float: none;
+            }
+        }
+        h3{
+            &#order_review_heading{
+                width: 40%;
+                float: right;
+                display: none;
+            }
+        }
+        #order_review{
+            width: 40%;
+            float: right;
+            padding: 0 0 0 10px;
+        }
+        &:after{
+            content: "";
+            clear: both;
+            display: table;
+        }
+    }
+}
+
+.wc-proceed-to-checkout .checkout-button.button.alt, #place_order{
+    background-color: var(--accent);
+    position: relative;
+    &:before{
+        content: "";
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: var(--heading-color);
+        opacity: 0;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+    }
+    &:hover{
+        background-color: var(--accent);
+        &:before{
+            opacity: 0.2;
+        }
+    }
+}
