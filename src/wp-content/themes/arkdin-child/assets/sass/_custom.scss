@@ -1,43 +1,50 @@
-.cs_site_header ~ .cs_site_header_spacing_130{
-    height: 110px;
-}
-.cs_main_header{
-    padding-top: 20px;
-    &.cs_accent_bg{
-        background: #81d8d0;
-    }
-    .cs_main_header_left{
-        .cs_site_branding{
-            margin-top: 15px;
-            padding-bottom: 15px;
-            width: 135px;
+.cs_site_header{
+    .cs_top_header{
+        .cs_top_header_in{
+            justify-content: end !important;
+            width: 100%;
+            .cs_header_social_links{
+                gap: 10px;
+            }
         }
     }
-    .cs_main_header_right{
-        ul{
-            display: flex;
-            margin: 0;
-            padding: 0;
-            gap: 10px;
-            justify-content: center;
-            align-items: center;
-            position: relative;
-            z-index: 11;
-            li{
-                a{
-                    color: #81d8d0;
-                    width: 45px;
-                    height: 45px;
-                    border: 1px solid #81d8d0;
-                    border-radius: 50%;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
+    .cs_main_header{
+        &.cs_accent_bg{
+            background: #81d8d0;
+        }
+        .cs_main_header_left{
+            .cs_site_branding{
+                margin-top: 15px;
+                padding-bottom: 15px;
+                width: 135px;
+            }
+        }
+        .cs_main_header_right{
+            ul{
+                display: flex;
+                margin: 0;
+                padding: 0;
+                gap: 10px;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                z-index: 11;
+                li{
+                    a{
+                        color: #81d8d0;
+                        width: 45px;
+                        height: 45px;
+                        border: 1px solid #81d8d0;
+                        border-radius: 50%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                    }
                 }
             }
         }
     }
-}
+} 
 #main_slider{
     h3{
         img{
@@ -185,10 +192,12 @@
     #menu-main-menu{
         padding-top: 170px;
     }
-    .cs_main_header{
-        .cs_main_header_left{
-            .cs_site_branding{
-                width: 100px;
+    .cs_site_header{
+        .cs_main_header{
+            .cs_main_header_left{
+                .cs_site_branding{
+                    width: 100px;
+                }
             }
         }
     }
