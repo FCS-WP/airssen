@@ -13,6 +13,30 @@
             width: 135px;
         }
     }
+    .cs_main_header_right{
+        ul{
+            display: flex;
+            margin: 0;
+            padding: 0;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            z-index: 11;
+            li{
+                a{
+                    color: #81d8d0;
+                    width: 45px;
+                    height: 45px;
+                    border: 1px solid #81d8d0;
+                    border-radius: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
 }
 #main_slider{
     h3{
