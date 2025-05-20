@@ -51,6 +51,15 @@
             display: none;
         }
     }
+    .cs_hero_img:before{
+        content: "";
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        background: rgba(0,0,0,0.3);
+        position: absolute;
+    }
 }
 #about_us{
     .cs_tab_links{
@@ -70,6 +79,10 @@
         ul{
             li{
                 width: 100%;
+                padding: 0;
+                svg{
+                    display: none
+                }
             }
         }
     }
@@ -98,13 +111,13 @@
         }
         h3{
             position: relative;
-            padding-left: 30px;
+            padding-left: 25px;
             font-size: 20px;
             &:before{
                 content: "";
-                background: url("/wp-content/uploads/2025/05/check-1.svg") no-repeat center center / cover;
-                width: 20px;
-                height: 20px;
+                background: url("/wp-content/uploads/2025/05/check-2.webp") no-repeat center center / cover;
+                width: 14px;
+                height: 14px;
                 position: absolute;
                 top: 50%;
                 left: 0;
@@ -112,6 +125,10 @@
             }
         }
     }
+}
+
+.cs_why_chose_us{
+    background-image: url("/wp-content/uploads/2025/05/image.webp") !important;
 }
 
 .cs_footer.cs_style_1{
@@ -133,7 +150,7 @@
 
 
 .tp-list{
-    list-style: url("/wp-content/uploads/2025/05/check-1.svg");
+    list-style: url("/wp-content/uploads/2025/05/check-2.webp");
 }
 
 .service_list{
@@ -160,6 +177,7 @@
                 position: relative;
                 padding: 0px 30px 0;
                 z-index: 2;
+                min-height: 400px;
                 &:after{
                     content: "";
                     width: 100%;
@@ -176,6 +194,9 @@
                     margin-top: 10px;
                     ul{
                         margin-bottom: 0;
+                        margin-top: 15px;
+                        padding-top: 15px;
+                        border-top: 2px solid #ccc;
                     }
                 }
             }
@@ -187,6 +208,12 @@
         }
     }
 }
+
+
+.wp-block-search .wp-block-search__button{
+	background: #81d8d0
+}
+
 
 @media screen and (max-width: 1199px){
     #menu-main-menu{

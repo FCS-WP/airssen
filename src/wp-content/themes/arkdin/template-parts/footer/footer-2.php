@@ -42,7 +42,7 @@ default:
     break;
 }
 
-$arkdin_number_icon = get_template_directory_uri() . '/assets/img/icons/call.svg';
+$arkdin_number_icon = '/wp-content/uploads/2025/05/call.webp';
 
 $arkdin_footer_logo = get_template_directory_uri() . '/assets/img/footer_logo.svg';
 $arkdin_footer2_profile_image = get_theme_mod( 'arkdin_footer2_profile_image', $arkdin_footer_logo );
